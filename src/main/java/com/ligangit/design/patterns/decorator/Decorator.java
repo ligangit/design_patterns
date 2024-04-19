@@ -1,4 +1,4 @@
-package com.ligangit.design.patterns.decoratorpattern;
+package com.ligangit.design.patterns.decorator;
 
 /**
  * 抽象装饰角色

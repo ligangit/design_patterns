@@ -50,4 +50,4 @@ DecoratorPattern
 缺点： 
 1. 增加了很多子类，增加程序的复杂性 
 类结构图 
-   ![img.png](img/decoratorpattern/img.png)
+   ![img.png](img/decorator/img.png)
