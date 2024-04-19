@@ -38,3 +38,15 @@ adapter
 ![img.png](img/adapter/img.png) 
 对象结构适配器模式图（一般采用这种模式） 
 ![img.png](img/adapter/img_1.png) 
+
+## 装饰模式
+DecoratorPattern 
+装饰模式：在不改变现有对象结构的情形下，动态的给一个对象去扩展功能，做到即插即用 
+优点： 
+1. 在不改变现有对象结构的情形下，动态的给一个对象去扩展功能 
+2. 通过使用不同的装饰类、装饰类排列组合，实现不同的效果 
+3. 完全遵守排列组合 
+缺点： 
+1. 增加了很多子类，增加程序的复杂性 
+类结构图 
+   ![img.png](img/decoratorpattern/img.png)
