@@ -1,17 +1,17 @@
 # 设计模式
 本仓库是设计模式示例代码仓库
 ## 简单工厂设计模式
-simplefactory
-
+simplefactory 
+![img.png](img/simplefactory/img.png) 
 ## 策略模式
-strategy
-
+strategy 
+![img.png](img/strategy/img.png) 
 ## 单例模式
-singleton
-
+singleton 
+![img.png](img/singleton/img.png) 
 ## 代理模式
-proxy
-
+proxy 
+![img.png](img/proxy/img.png)  
 ## 原型模式
 prototype 
 原型模式，可以理解为克隆，基于某对象复制一份新的对象 
@@ -19,8 +19,10 @@ prototype
 1. 基于内存二进制流拷贝，性能比新建对象好 
 2. 可使用深克隆的方式，保存对象的状态，简化创建对象的过程，或者实现撤销的操作 
 缺点： 
-1. 需要给每个类都实现clone方法，也违背了开闭原则 
-2. java支持浅克隆，但是深克隆时，每层对象都需要支持深克隆
+1. 需要给每个类都实现clone方法，也违背了开闭原则  
+2. java支持浅克隆，但是深克隆时，每层对象都需要支持深克隆  
+类结构图 
+![img.png](img/prototype/img.png) 
 
 ## 适配器模式
 adapter 
