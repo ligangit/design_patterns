@@ -41,7 +41,7 @@ adapter
 ![img.png](img/adapter/img_1.png) 
 
 ## 装饰模式
-DecoratorPattern 
+Decorator Pattern 
 装饰模式：在不改变现有对象结构的情形下，动态的给一个对象去扩展功能，做到即插即用 
 优点： 
 1. 在不改变现有对象结构的情形下，动态的给一个对象去扩展功能 
@@ -50,4 +50,18 @@ DecoratorPattern
 缺点： 
 1. 增加了很多子类，增加程序的复杂性 
 类结构图 
-   ![img.png](img/decorator/img.png)
+   ![img.png](img/decorator/img.png) 
+
+
+## 桥接模式
+Bridge Pattern
+桥接模式：将抽象和实现做一个完整的分离，能够让他们独立变化，降低耦合性 
+优点： 
+1. 抽象和实现分离，扩展能力强 
+2. 符合开闭原则 
+3. 符合合成复用原则 
+4. 实现细节对客户透明 
+缺点： 
+1. 要求开发者正确识别系统中两个变化的维度，要求开发者对业务需求、要求的理解度有高要求
+类结构图
+![img.png](img/bridge/img.png)
