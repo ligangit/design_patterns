@@ -9,6 +9,7 @@ strategy
 ## 单例模式
 singleton 
 ![img.png](img/singleton/img.png) 
+可参考文章：https://zhuanlan.zhihu.com/p/677327799 
 ## 代理模式
 proxy 
 ![img.png](img/proxy/img.png)  
